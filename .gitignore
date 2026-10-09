@@ -1,0 +1,35 @@
+## Build and Visual Studio outputs
+[Bb]in/
+[Ob]j/
+[LLOo]og/
+[Ll]ogs/
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Nuget packages and restored files
+*.nupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Test results and code coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Target framework/publish directories
+publish/
+bin/Debug/
+bin/Release/
+
+## Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
